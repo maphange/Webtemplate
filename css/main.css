@@ -1,0 +1,278 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.7em;
+}
+
+h1, h2, h3, p {
+    padding-bottom: 20px;
+}
+
+/* Utility classes */
+.container {
+    max-width: 1200px;
+    margin: auto;
+    padding: 0 20px;
+    overflow: auto;
+}
+
+.text-primary {
+    color: #f7c08a;
+}
+
+.lead {
+    font-size: 20px;
+}
+
+.btn {
+    background-color: #333;
+    color: #fff;
+    font-size: 18px;
+    display: inline-block;
+    padding: 10px 12px;
+    border: 1px solid #333;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #f7c08a;
+    color: #333; 
+}
+
+.btn-light {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.bg-dark {
+    background-color: #333;
+    color: #fff;
+}
+
+.bg-light {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.bg-primary {
+    background-color: #f7c08a;
+    color: #333;
+}
+.lg-heading {
+    font-size: 55px;
+}
+
+.clear {
+    clear: both;
+}
+
+/* Vertical Padding */
+.py-1 {
+    padding: 10px 0;
+}
+
+.py-2 {
+    padding: 20px 0;
+}
+
+.py-3 {
+    padding: 30px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #333;
+    margin: 0;
+}
+
+/* Navbar */
+nav {
+    background-color: #333;
+    overflow: auto;
+    color: #fff;
+}
+
+nav a {
+    color: #fff;
+}
+
+nav h1.logo {
+    float: left;
+    padding: 20px 0;
+}
+
+nav ul {
+    float: right;
+    list-style: none;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul li a:hover,
+nav ul li a.active {
+    background-color: #444;
+    color: #f7c08a;
+}
+
+/* Banner */
+section#banner {
+    background: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,.6)), url('../images/bg_photo_2.jpg') no-repeat center center/cover;
+    height: 500px;
+    color: #fff;
+    text-align: center;
+    padding-top: 110px;
+}
+
+section#banner h1 {
+    font-size: 50px;
+    padding: 30px;
+}
+
+section#banner p {
+    padding-bottom: 30px;
+}
+
+/* Info Section */
+
+section#info {
+    background-color: #333;
+    overflow: hidden;
+    color: #fff;
+    height: 400px;
+}
+
+.info-image, .info-text{
+    width: 50%;
+    float: left;
+}
+
+.info-image{
+    background: url('../images/bg_photo_1.jpg') no-repeat center center/cover;
+    min-height: 100%;
+}
+
+.info-text {
+    padding: 90px 40px;
+    text-align: center;
+}
+
+.info-text h2 {
+    padding-bottom: 15px;
+}
+
+.info-text p {
+    padding-bottom: 20px;
+}
+
+/* Feature Section */
+.box {
+    text-align: center;
+    padding: 40px;
+    width: 33.33%;
+    float: left;
+}
+
+section#features .box i {
+    padding-bottom: 20px;
+}
+
+/* About Page */
+section#about {
+    height: 400px;
+    overflow: auto;
+}
+
+.about-text {
+    width: 70%;
+    float: left;
+    height: auto;
+}
+
+.about-image img{
+    display: block;
+    padding-top: 53px;
+    width: 30%;
+    float: right;
+    min-height: 70%;
+}
+
+section#testimonials {
+    background: url('../images/clients.jpg') no-repeat center center/cover;
+    color: #fff;
+    height: 560px;
+    padding-top: 60px;
+}
+
+section#testimonials h2 {
+    text-align: center;
+    font-size: 50px;
+    padding-top: 20px;
+}
+
+section#testimonials .testimonial {
+    margin: 40px;
+    border-radius: 20px;
+    opacity: .8;
+}
+
+section#testimonials .testimonial img {
+    display: block;
+    width: 100px;
+    float: left;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+section#testimonials .testimonial p {
+    padding-top: 20px;
+}
+
+section#contact-form form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+section#contact-form form input, section#contact-form form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+section#contact-form form textarea {
+    height: 150px;
+}
+
+section#contact-form form input:focus,
+section#contact-form form textarea:focus {
+    outline: none;
+    border: 2px solid #f7c08a;
+}
+
+section#contact-form form button {
+    margin-bottom: 20px;
+}
+
+
+
+/* Footer */
+footer {
+    padding: 30px;
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+}
+
